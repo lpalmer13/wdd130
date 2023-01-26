@@ -1,0 +1,45 @@
+body {
+    background-color: pink;
+    text-align: center;
+  }
+
+h1 {
+    font-size: 3em;
+}
+
+h1:hover {
+    color: white;
+    text-align: center;
+}
+.education {
+    font-size: 1em;
+    line-height: 25px;
+    color: white;
+    margin: 0 400px;
+}
+  h1 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin: 20px;
+  }
+
+.class {
+    font-size: 1em;
+    text-align: left;
+    margin-left:  35%;
+  }
+
+.quote {
+    font-size: 1.5em;
+    line-height: 35px;
+    color: white;
+    margin: 30px 500px;
+  }
+
+.author {
+    font-size: 1em;
+    margin: 30px 400px;
+  }
