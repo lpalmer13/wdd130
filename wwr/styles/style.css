@@ -1,3 +1,5 @@
+@import url(https://www.w3schools.com/cssref/css_websafe_fonts.php);
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -9,12 +11,16 @@ header {
 
 .home-title {
     color: black;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a {
     text-align: center;
-    color: white;
+    color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,6 +36,10 @@ h4 {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -41,6 +51,10 @@ h4 {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -48,10 +62,22 @@ h4 {
     color: #d9c2a3;
 }
 
-body {
-    background-color: #fcfbfb;
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+#
 #hero-img {
     width: 100%;
 }
@@ -65,15 +91,20 @@ body {
 }
 
 .msg {
-    background-color: white;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -84,12 +115,33 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+#logo_ink{
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card {
+    margin: 200px 0;
+}
+
+.rapids-card {
+    margin: 200px 0;
 }
 
 #background {
@@ -100,6 +152,12 @@ main section {
 footer {
     background-color: rgba(20,30,13, .7);
     color: black;
+    padding: 25px 50px;
+    margin: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
