@@ -18,6 +18,11 @@ header {
     margin-top: 10px;
 }
 
+.home-grid {
+    grid-column: 2/10;
+    grid-row: 5/9;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
