@@ -1,0 +1,14 @@
+/* body {
+    background-color: black;
+} */
+
+.contentbox {
+    display: grid;
+    width: 600px;
+    grid-template-rows: 100px 1fr 50px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
