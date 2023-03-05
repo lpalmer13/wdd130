@@ -48,7 +48,7 @@ h4 {
     width: 100%;
 }
 
-#river-msg {
+#river-msg h1 {
     color: black;
     text-align: center;
     font-size: 1.2em;
