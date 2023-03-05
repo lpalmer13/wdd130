@@ -48,6 +48,14 @@ h4 {
     width: 100%;
 }
 
+#river-msg {
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Raleway, Arial, sans-serif;
+    margin-top: 100px;
+}
+
 .book {
     background-color: #d9c2a3;
     color: black;
