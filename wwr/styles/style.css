@@ -68,11 +68,25 @@ h4 {
 
 #river-msg h1 {
     text-align: center;
-    margin-top: 40em;
+    color: white;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+#river-msg h2 {
+    text-align: center;
+    margin-top: 800px;
     color: black;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 2em;
 }
+
+#river-msg h3 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
 
 .book {
     background-color: #d9c2a3;
